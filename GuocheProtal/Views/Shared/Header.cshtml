@@ -1,0 +1,58 @@
+﻿
+
+<!-- banner -->
+<div id="home" class="banner a-banner">
+    <!-- container -->
+    <div class="container">
+        <div class="header">
+            <div class="head-logo">
+                <a href="index.html"><img src="~/Source/images/logo.png" alt="" /></a>
+            </div>
+            <div class="top-nav">
+                <span class="menu"><img src="~/Source/images/menu.png" alt=""></span>
+                <ul class="nav1">
+                    <li class="hvr-sweep-to-bottom @(ViewBag.Index==1?"active":"")"><a href="/">首页<i><img src="~/Source/images/nav-but1.png" alt="" /></i></a></li>
+                    <li class="hvr-sweep-to-bottom @(ViewBag.Index==2?"active":"")"><a href="/product">产品<i><img src="~/Source/images/nav-but4.png" alt="" /></i></a></li>
+                    <li class="hvr-sweep-to-bottom @(ViewBag.Index==3?"active":"")"><a href="/service">服务<i><img src="~/Source/images/nav-but3.png" alt="" /></i></a></li>
+                    <li class="hvr-sweep-to-bottom @(ViewBag.Index==4?"active":"")"><a href="/about">关于我们<i><img src="~/Source/images/nav-but2.png" alt="" /></i></a></li>
+                    <li class="hvr-sweep-to-bottom @(ViewBag.Index==5?"active":"")"><a href="/contact">联系我们<i><img src="~/Source/images/nav-but5.png" alt="" /></i></a></li>
+                    <div class="clearfix"></div>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!-- //container -->
+    @if (ViewBag.Index == 1)
+    {
+          <div class="container">
+        <div id="top" class="callbacks_container">
+            <ul class="rslides" id="slider3">
+                <li>
+                    <div class="banner-info">
+                        <h2>哪里可以找到<span> 绿色环保健康 </span> 的物流运输方式</h2>
+                        <div class="line"> </div>
+                        <p>国车集团以主人翁的心态积极地为社会大众提供绿色环保健康的物流运输方式，便捷大众，服务社会，关注环境</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-info">
+                        <h2>选择国车使您的<span> 出行 </span> 更加的便捷</h2>
+                        <div class="line"> </div>
+                        <p>国车集团拥有各种车型，商务出行，物流运输，个性出游，我们为您提供一站式的无缝对接服务，让您的出行更加的便捷舒适</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-info">
+                        <h2>提供 <span>新能源</span>绿色运输解决方案</h2>
+                        <div class="line"> </div>
+                        <p>国车集团为您提供绿色清洁的运输解决方案，让您的货物及时，高效，绿色，环保地在蓝天下自由流通</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    }
+   
+</div>
+<!-- //banner -->

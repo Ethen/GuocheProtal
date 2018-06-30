@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="汽车 新能源 租赁 汽车租赁 绿色 出行 集团" />
+    <script type="application/x-javascript">
+
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <!-- css -->
+    <link href="~/Source/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/Source/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/Source/css/animate.css" type="text/css" media="all">
+    <!--// css -->
+    <script src="~/Source/js/jquery-1.11.1.min.js"></script>
+    <script src="~/Source/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--start-smoth-scrolling-->
+    <script type="text/javascript" src="~/Source/js/move-top.js"></script>
+    <script type="text/javascript" src="~/Source/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 900);
+            });
+        });
+    </script>
+    <!--start-smoth-scrolling-->
+
+
+</head>
+<body>
+    @{ Html.RenderPartial("Header", null); }
+    @RenderBody()
+    @{ Html.RenderPartial("Footer", null); }
+</body>
+
+
+</html>
+<script src="~/Source/js/responsiveslides.min.js"></script>
+<!-- script-for-menu -->
+<script>
+
+    $(function () {
+        // Slideshow 4
+        $("#slider3").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: false,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+        $("span.menu").click(function () {
+            $("ul.nav1").slideToggle(300, function () {
+                // Animation complete.
+            });
+        });
+
+    });
+</script>
+<!-- /script-for-menu -->
