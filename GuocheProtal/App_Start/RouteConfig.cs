@@ -14,8 +14,8 @@ namespace GuocheProtal
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute("contact", "contact", new { controller = "Home", action = "Contact" });
-            routes.MapRoute("about", "about", new { controller = "Home", action = "About" });
-            routes.MapRoute("service", "service", new { controller = "Home", action = "Service" });
+            routes.MapRoute("join", "join", new { controller = "Home", action = "Join" });
+            routes.MapRoute("news", "news", new { controller = "Home", action = "News" });
             routes.MapRoute("product", "product", new { controller = "Home", action = "Product" });
 
             routes.MapRoute(

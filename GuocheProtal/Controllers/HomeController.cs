@@ -14,7 +14,7 @@ namespace GuocheProtal.Controllers
             return View();
         }
 
-        public ActionResult Service()
+        public ActionResult News()
         {
             ViewBag.Index = 3;
             ViewBag.Message = "Your application description page.";
@@ -30,7 +30,7 @@ namespace GuocheProtal.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Join()
         {
             ViewBag.Index = 4;
             ViewBag.Message = "Your application description page.";

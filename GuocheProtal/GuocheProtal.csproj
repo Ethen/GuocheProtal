@@ -214,8 +214,11 @@
     <Content Include="Source\images\b8.jpg" />
     <Content Include="Source\images\b9.jpg" />
     <Content Include="Source\images\banner2.jpg" />
+    <Content Include="Source\images\chanp.jpg" />
+    <Content Include="Source\images\chuna.jpg" />
     <Content Include="Source\images\co.png" />
     <Content Include="Source\images\fancybox_sprite.png" />
+    <Content Include="Source\images\finace.jpg" />
     <Content Include="Source\images\i5.jpg" />
     <Content Include="Source\images\icons.png" />
     <Content Include="Source\images\img1.jpg" />
@@ -237,6 +240,7 @@
     <Content Include="Source\images\sin1.jpg" />
     <Content Include="Source\images\sin2.jpg" />
     <Content Include="Source\images\top-arrow.png" />
+    <Content Include="Source\images\yunying.jpg" />
     <Content Include="Source\js\easing.js" />
     <Content Include="Source\js\jquery-1.11.1.min.js" />
     <Content Include="Source\js\jquery.fancybox.js" />
@@ -254,7 +258,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Join.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -270,8 +274,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\Header.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
-    <Content Include="Views\Home\Service.cshtml" />
     <Content Include="Views\Home\Product.cshtml" />
+    <Content Include="Views\Home\News.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
